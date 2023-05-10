@@ -1,4 +1,4 @@
-package Chapter6.dataabstraction.simple;
+package Chapter6.dataabstraction.original;
 
 import Chapter6.dataabstraction.Book;
 

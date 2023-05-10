@@ -1,11 +1,10 @@
-package chapter10.opencloseprinciple.original;
+package chapter10.opencloseprinciple.example1.original;
 
 
-import chapter10.opencloseprinciple.Column;
-import chapter10.opencloseprinciple.Criteria;
+import chapter10.opencloseprinciple.example1.Column;
+import chapter10.opencloseprinciple.example1.Criteria;
 
 public abstract class Sql {
-    //   public Sql(String table, Column[] columns);
     public abstract String create();
 
     public abstract String insert(Object[] fields);

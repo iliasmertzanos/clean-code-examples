@@ -1,4 +1,4 @@
-package chapter10.singleresponsibility;
+package chapter10.singleresponsibility.original;
 
 public class TextManager {
 

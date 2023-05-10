@@ -1,6 +1,6 @@
-package chapter10.opencloseprinciple.refactored.sql;
+package chapter10.opencloseprinciple.example1.refactored.sql;
 
-import chapter10.opencloseprinciple.Column;
+import chapter10.opencloseprinciple.example1.Column;
 
 abstract public class Sql {
    public Sql(String table, Column[] columns) {};

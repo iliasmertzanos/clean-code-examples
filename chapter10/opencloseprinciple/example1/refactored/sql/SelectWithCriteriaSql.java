@@ -1,7 +1,7 @@
-package chapter10.opencloseprinciple.refactored.sql;
+package chapter10.opencloseprinciple.example1.refactored.sql;
 
-import chapter10.opencloseprinciple.Column;
-import chapter10.opencloseprinciple.Criteria;
+import chapter10.opencloseprinciple.example1.Column;
+import chapter10.opencloseprinciple.example1.Criteria;
 
 class SelectWithCriteriaSql extends Sql {
     public SelectWithCriteriaSql(

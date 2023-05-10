@@ -1,6 +1,6 @@
-package chapter10.opencloseprinciple.refactored.sql;
+package chapter10.opencloseprinciple.example1.refactored.sql;
 
-import chapter10.opencloseprinciple.Column;
+import chapter10.opencloseprinciple.example1.Column;
 
 class InsertSql extends Sql {
     public InsertSql(String table, Column[] columns, Object[] fields) {

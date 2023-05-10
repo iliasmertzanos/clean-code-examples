@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public class BookService {
 
-    public void doSomething() {
+    public void addNewBook() {
         Book newCoolBook = new Book();
         Bookstore bookstore = new Bookstore();
         List<Book> books = bookstore.getBooks();

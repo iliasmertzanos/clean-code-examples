@@ -28,7 +28,21 @@ public class TextManager {
                 %n""", this.text);
     }
 
-    public Double parseStringToDouble(String string) {
-        return Double.parseDouble(string);
+    public Double parseTextToDouble(String text) {
+        return Double.parseDouble(text);
+    }
+
+    public Email parseTextToEmail(String text) {
+        return new Email(text);
+    }
+
+    public Message parseTextToMessage(String text) {
+        return new Message(text);
+    }
+
+    record Email(String text) {
+    }
+
+    record Message(String text) {
     }
 }

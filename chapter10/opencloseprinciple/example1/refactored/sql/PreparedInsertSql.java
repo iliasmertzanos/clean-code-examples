@@ -2,9 +2,9 @@ package chapter10.opencloseprinciple.example1.refactored.sql;
 
 import chapter10.opencloseprinciple.example1.Column;
 
-class PreparedInsertSql extends Sql {
+class PreparedInsertSql implements Sql {
     public PreparedInsertSql(String table, Column[] columns) {
-        super(table, columns);
+        
     }
 
     @Override

@@ -3,10 +3,10 @@ package chapter10.opencloseprinciple.example1.refactored.sql;
 import chapter10.opencloseprinciple.example1.Column;
 import chapter10.opencloseprinciple.example1.Criteria;
 
-class SelectWithCriteriaSql extends Sql {
+class SelectWithCriteriaSql implements Sql {
     public SelectWithCriteriaSql(
             String table, Column[] columns, Criteria criteria) {
-        super(table, columns);
+
     }
 
     @Override
